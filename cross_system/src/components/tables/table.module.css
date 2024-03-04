@@ -1,0 +1,39 @@
+.tableDiv {
+    margin: 2.5%;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.th {
+    background-color: #2c3e50;
+    color: white;
+    font-weight: bold;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 12px 15px;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.tdEdit {
+    cursor: pointer;
+    color: #1f94e2;
+    text-align: center; /* Centraliza o conteúdo de tdEdit */
+}
+
+.rowHover:hover {
+    background-color: #ddd; /* Classe para efeito hover */
+}
+
+.evenRow {
+    background-color: #f8f9fa; /* Classe para linhas pares (zebra striping) */
+}
